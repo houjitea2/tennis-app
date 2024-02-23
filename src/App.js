@@ -32,7 +32,7 @@ function App() {
     <>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input type="text" ref={todoNameRef} />
-      <button onClick={handleAddTodo}>タスクを追加</button>
+      <button onClick={handleAddTodo}>タスクを追加します</button>
       <button onClick={handleClear}>完了したタスクの削除</button>
       <div>
         残りのタスク：{todos.filter((todos) => !todos.completed).length}
